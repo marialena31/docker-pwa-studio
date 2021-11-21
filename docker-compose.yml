@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  node:
+    build: .
+    ports:
+      - 10000:10000
+    volumes:
+      - ./pwa-studio-fundamentals/src:/app/src
